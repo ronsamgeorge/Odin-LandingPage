@@ -1,3 +1,14 @@
 img {
     border : 2px solid grey;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
