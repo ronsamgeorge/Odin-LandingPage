@@ -21,20 +21,24 @@ body{
     justify-content: center;
     font-size: 24px;
     color:#F9FAF8;
-    padding : 8px;
+    padding: 8px;
+    padding-left: 16px;
     font-weight: bold;
 }
 
 .headerLinks{
     display: flex;
-    gap : 8px;
+    gap : 12px;
     align-items: center;
-    padding-right: 32px;
+    padding-right: 120px;
+    font-size: 24px;
+    
 }
 
 
 a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 
@@ -43,6 +47,7 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
+    padding-bottom: 16px;
 }
 
 .intro{
@@ -133,18 +138,28 @@ a {
 .quote{
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: center;   
 }
+
+.quote-div{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .quote-text{
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 0;
 }
 
 .quote-author{
     font-weight: bold;
     font-size : 24px;
+    align-self: flex-end;
 }
 
 .signup-section{
@@ -152,21 +167,51 @@ a {
     align-items: center;
     background-color: #3882f6;
     justify-content: center;
-    width: 800px;
+    width: 1000px;
     height : 150px;
     margin: 100px;
 
     border-radius: 2%;
-    gap : 32px;
+    gap : 100px;
+
 }
 
 .signup-div{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.signup-intro > p{
+.signup-heading{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0px;
     color: white;
-    font-size: 24px;
-    margin : 0px;
+}
+
+
+.signup-text {
+    font-size: large;
+    color: #E5E7EB;
+    margin: 0px;
+}
+.signup-button {
+    color: white;
+    font-size: large;
+    background-color: #3882f6;
+    padding: 8px 28px;
+
+    font-weight: bold;
+    border : 2px solid white;
+    border-radius: 10%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 16px;
+    padding-bottom: 16px;  
 }
