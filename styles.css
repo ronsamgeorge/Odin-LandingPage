@@ -65,7 +65,7 @@ a {
     
 }
 
-button{
+.hero-button{
     width : 120px;
     height: 40px;
     background-color: #3882f6;
@@ -105,11 +105,19 @@ button{
 
 .information {
     display: flex;
-    height: 400px;
+    height: 300px;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 40px;
     gap : 32px;
+}
+
+.Random-info{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding: 16px;
 }
 
 .info-container{
@@ -124,6 +132,9 @@ button{
 
 .quote{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .quote-text{
@@ -134,4 +145,28 @@ button{
 .quote-author{
     font-weight: bold;
     font-size : 24px;
+}
+
+.signup-section{
+    display:flex;
+    align-items: center;
+    background-color: #3882f6;
+    justify-content: center;
+    width: 800px;
+    height : 150px;
+    margin: 100px;
+
+    border-radius: 2%;
+    gap : 32px;
+}
+
+.signup-div{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-intro > p{
+    color: white;
+    font-size: 24px;
+    margin : 0px;
 }
